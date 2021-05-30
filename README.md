@@ -8,8 +8,10 @@ We can use Docker to facilitate all the process. For this, we're gonna need an O
 
 1. Clone this repository with `git clone https://github.com/Xcatolin/jboss-deserialization`
 2. Download the [jdk-6u45-linux-x64.rpm.bin](https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html#jdk-6u45-oth-JPR) package and move it into the same directory as the Dockerfile (you can use an temporary e-mail address to register)
-3. Build the image with `docker build -t docker build -t Xcatolin/jboss-deserialization .`
-4. Run the image with `docker run -it -p 8080:8080 Xcatolin/jboss-deserialization`
+3. Build the image with `docker build -t ovanekem/docker-jboss-6.0.0.final .
+`
+4. Run the image with `docker run -it -p 8080:8080 ovanekem/docker-jboss-6.0.0.final
+`
 5. Click [here](http://localhost:8080) to validate if it worked, you should see the JBoss main page
 
 
